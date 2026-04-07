@@ -916,6 +916,8 @@ HttpBootCallback (
 
       break;
 
+    case HttpBootHttpAuthInfo:
+    case HttpBootTypeMax:
     default:
       break;
   }
